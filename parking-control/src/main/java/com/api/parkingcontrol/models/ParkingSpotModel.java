@@ -78,7 +78,7 @@ public class ParkingSpotModel implements Serializable {
     public void setRegistrationDate(String registrationDate) {
         this.registrationDate = registrationDate;
     }
-    public String responsableName() {
+    public String getResponsableName() {
         return responsableName;
     }
     public void setResponsableName(String responsableName) {
